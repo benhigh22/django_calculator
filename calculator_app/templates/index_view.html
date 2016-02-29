@@ -8,7 +8,7 @@
 <form action="" method="post">
 {% csrf_token %}
 <div class="input-group">
-<input type="text" class="form-control" placeholder="First Number" id="first_number" name="first_number">
+<input type="text" class="form-control" placeholder="First Number" value="{{ answer }}" id="first_number" name="first_number">
 
 <select class="form-control" name="operator" id="operator">
     <option>+</option>
